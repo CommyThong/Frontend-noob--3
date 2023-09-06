@@ -64,7 +64,7 @@ body {
 .image {
     max-width: 85%;
     border-radius: 10px;
-    margin-top: 25px;
+    margin-top: 7.3%;
 }
 
 .equalibrium {
@@ -142,10 +142,12 @@ body {
 .attribution { 
     font-size: 0.8em;
     margin-top: 20px;
+    font-weight: 100;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    /* color: hsl(228, 45%, 44%); */
+    color: hsl(178, 100%, 50%);
 }
 
 @media (max-width: 288px){
