@@ -74,7 +74,7 @@ body {
 
 .our {
     font-weight: 100;
-    max-width: 90%;
+    /* max-width: 90%; */
     font-size: 110%;
     color: hsl(215, 52%, 70%);
     line-height: 26px;
@@ -148,7 +148,7 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 287px){
+@media (max-width: 288px){
     .forty-jules img {
         width: 13vw;
     }
