@@ -48,6 +48,7 @@ body {
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    text-align: center;
 }
 
 .container-2 {
@@ -70,6 +71,15 @@ body {
 .equalibrium {
     font-size: 1.35em;
     display: flex;
+}
+
+.equalibrium a {
+    color: white;
+    text-decoration: none;
+}
+
+.equalibrium a:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .our {
@@ -135,8 +145,18 @@ body {
 
 .jules {
     margin-left: -94px;
-    margin-top: auto;
+    margin-top: 8px;
     font-weight: 100;
+}
+
+.jules a {
+    text-decoration: none;
+    color: white;
+}
+
+.jules a:hover {
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
 }
 
 .attribution { 
@@ -147,7 +167,7 @@ body {
 
 .attribution a {
     /* color: hsl(228, 45%, 44%); */
-    color: hsl(178, 100%, 50%);
+    color: hsl(215, 52%, 70%);
 }
 
 @media (max-width: 288px){
